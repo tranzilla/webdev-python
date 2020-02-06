@@ -1,0 +1,126 @@
+body {
+  background-color: #494f54;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+
+
+p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 0rem;
+  padding: 1rem;
+}
+
+/*Profile Picture */
+.text-center img {
+  width: 18rem;
+  border-radius: 50%;
+  text-align: center;
+  margin: .5rem;
+  margin-bottom: 3rem;
+}
+
+.bg-profile {
+  padding-top: calc(4rem + 14px);
+  padding-bottom: 4rem;
+  background-color: #79a2d6!important;
+  color: #ffffff;
+}
+
+
+/*Navigation */
+.navbar-expand-lg .nav-link {
+  font-size: 1.3rem;
+  text-decoration: uppercase;
+}
+
+.navlink a {
+  color: #fff;
+}
+
+.navbar-nav {
+  padding-right: 1.5rem;
+}
+
+#navbarSupportedContent {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background-color:#79a2d6;
+  width: 4rem;
+}
+
+/*Custom Icon Divider - set a div box, create custom line */
+.divider {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  align-items:center;
+  display:flex;
+  justify-content:center;
+}
+
+.custom-line {
+  width:100%;
+  max-width:7rem;
+  height:.25rem;
+  background-color:#fff;
+  border-radius:1rem;
+  border-color:#2c3e50!important;
+}
+
+/* Add margin to the lines between the codeslash icon*/
+.divider .custom-line:first-child {
+  margin-right: 1rem;
+}
+
+.divider .custom-line:last-child {
+  margin-left: 1rem;
+}
+
+.section-about {
+  background-color: #fff;
+  color: #79a2d6;
+}
+
+.section-about .custom-line {
+  background-color:#79a2d6;
+}
+
+.page-section-primary {
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.page-section-secondary {
+  background-color: #494f54;
+  padding: 3rem;
+}
+/* Footer */
+footer {
+  background-color: #333a40;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
