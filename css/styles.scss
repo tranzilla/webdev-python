@@ -1,27 +1,33 @@
+$primary-color: #79a2d6; //babyblue
+$secondary-color: #494f54; //grey
+$text-primary: #fff; //white
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Lato', sans-serif;
+
 body {
-  background-color: #494f54;
+  background-color: $secondary-color;
   text-align: center;
-  color: #fff;
+  color: $text-primary;
   font-size: 2rem;
-  font-family: "Lato", sans-serif;
+  font-family: $font-secondary;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: $font-primary;
   font-size: 3rem;
   text-transform: uppercase;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: $font-primary;
   font-size: 2.25rem;
   text-transform: uppercase;
 }
 
 h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: $font-primary;
   font-size: 1rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: .1rem;
 }
 
 p {
@@ -35,21 +41,20 @@ p {
   width: 18rem;
   border-radius: 50%;
   text-align: center;
-  margin: 0.5rem;
+  margin: .5rem;
   margin-bottom: 3rem;
 }
 
 .bg-profile {
   padding-top: calc(4rem + 14px);
   padding-bottom: 4rem;
-  background-color: #79a2d6 !important;
-  color: #fff;
+  background-color: $primary-color!important;
+  color: $text-primary;
 }
-
 /*About Section*/
 .section-about {
-  background-color: #fff;
-  color: #79a2d6;
+  background-color: $text-primary;
+  color: $primary-color;
 }
 
 .section-about p {
@@ -63,7 +68,7 @@ p {
 }
 
 .navlink a {
-  color: #fff;
+  color: $text-primary;
 }
 
 .navbar-nav {
@@ -75,7 +80,7 @@ p {
 }
 
 .navbar-toggler {
-  background-color: #79a2d6;
+  background-color: $primary-color;
   width: 4rem;
 }
 
@@ -83,18 +88,18 @@ p {
 .divider {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  align-items:center;
+  display:flex;
+  justify-content:center;
 }
 
 .custom-line {
-  width: 100%;
-  max-width: 7rem;
-  height: 0.25rem;
-  background-color: #fff;
-  border-radius: 1rem;
-  border-color: #2c3e50 !important;
+  width:100%;
+  max-width:7rem;
+  height:.25rem;
+  background-color:$text-primary;
+  border-radius:1rem;
+  border-color:#2c3e50!important; //todo
 }
 
 .divider .custom-line:first-child {
@@ -106,17 +111,17 @@ p {
 }
 
 .section-about .custom-line {
-  background-color: #79a2d6;
+  background-color: $primary-color;
 }
 
 /*Page Divider*/
 .page-section-primary {
-  background-color: #fff;
+  background-color: $text-primary;
   padding: 3rem;
 }
 
 .page-section-secondary {
-  background-color: #494f54;
+  background-color: $secondary-color;
   padding: 3rem;
 }
 
@@ -124,15 +129,16 @@ p {
 footer {
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: .1rem;
 }
 
 /*Phone Media Queries*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 667px) {
   .section-about p {
     text-align: left;
     font-size: 1.4rem;
-  }
-}
+  };
 
-/*# sourceMappingURL=styles.css.map */
+}

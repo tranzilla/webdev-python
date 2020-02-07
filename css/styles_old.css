@@ -1,28 +1,29 @@
 body {
   background-color: #494f54;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   font-size: 2rem;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   text-transform: uppercase;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.25rem;
   text-transform: uppercase;
 }
 
 h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: .1rem;
 }
+
 
 p {
   font-size: 1.5rem;
@@ -30,31 +31,26 @@ p {
   margin-bottom: 0rem;
 }
 
-/*Profile Section */
+.section-about p {
+  padding: 1rem;
+}
+
+/*Profile Picture */
 .text-center img {
   width: 18rem;
   border-radius: 50%;
   text-align: center;
-  margin: 0.5rem;
+  margin: .5rem;
   margin-bottom: 3rem;
 }
 
 .bg-profile {
   padding-top: calc(4rem + 14px);
   padding-bottom: 4rem;
-  background-color: #79a2d6 !important;
-  color: #fff;
+  background-color: #79a2d6!important;
+  color: #ffffff;
 }
 
-/*About Section*/
-.section-about {
-  background-color: #fff;
-  color: #79a2d6;
-}
-
-.section-about p {
-  padding: 1rem;
-}
 
 /*Navigation */
 .navbar-expand-lg .nav-link {
@@ -75,7 +71,7 @@ p {
 }
 
 .navbar-toggler {
-  background-color: #79a2d6;
+  background-color:#79a2d6;
   width: 4rem;
 }
 
@@ -83,20 +79,21 @@ p {
 .divider {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  align-items:center;
+  display:flex;
+  justify-content:center;
 }
 
 .custom-line {
-  width: 100%;
-  max-width: 7rem;
-  height: 0.25rem;
-  background-color: #fff;
-  border-radius: 1rem;
-  border-color: #2c3e50 !important;
+  width:100%;
+  max-width:7rem;
+  height:.25rem;
+  background-color:#fff;
+  border-radius:1rem;
+  border-color:#2c3e50!important;
 }
 
+/* Add margin to the lines between the codeslash icon*/
 .divider .custom-line:first-child {
   margin-right: 1rem;
 }
@@ -105,11 +102,15 @@ p {
   margin-left: 1rem;
 }
 
-.section-about .custom-line {
-  background-color: #79a2d6;
+.section-about {
+  background-color: #fff;
+  color: #79a2d6;
 }
 
-/*Page Divider*/
+.section-about .custom-line {
+  background-color:#79a2d6;
+}
+
 .page-section-primary {
   background-color: #fff;
   padding: 3rem;
@@ -119,20 +120,20 @@ p {
   background-color: #494f54;
   padding: 3rem;
 }
-
 /* Footer */
 footer {
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: .1rem;
 }
 
 /*Phone Media Queries*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 667px) {
   .section-about p {
     text-align: left;
     font-size: 1.4rem;
-  }
-}
+  };
 
-/*# sourceMappingURL=styles.css.map */
+}
