@@ -126,3 +126,14 @@ footer {
   text-transform: uppercase;
   letter-spacing: .1rem;
 }
+
+/*Phone Media Queries*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 667px) {
+  .section-about p {
+    text-align: left;
+    font-size: 1.4rem;
+  };
+
+}
